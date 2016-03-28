@@ -1,0 +1,30 @@
+
+14:24:54.433 INFO ParseArchs(): Active architecture: i386
+
+14:24:54.433 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildRetroAlgorithm
+
+14:24:54.440 INFO start(): Running command line: "[java -Dretrolambda.inputDir=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/input -Dretrolambda.classpath=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar -Dretrolambda.outputDir=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/output -Dretrolambda.natjSupport=true -Dretrolambda.defaultMethods=true -jar /Applications/Intel/INDE/multi_os_engine/tools/retrolambda.jar]"
+
+14:24:54.539 INFO run(): module "run retrolambda": out_stream: "Retrolambda 2.0.2-SNAPSHOT"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "Bytecode version: 51 (Java 7)"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "Default methods:  true"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "NatJ support:     true"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "Input directory:  /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/input"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "Output directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/output"
+
+14:24:54.546 INFO run(): module "run retrolambda": out_stream: "Classpath:        /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar"
+
+14:24:54.776 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/ios/ios/ui/AppViewController.viewDidLoad"
+
+14:24:54.778 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/com/intel/ios/ios/ui/AppViewController"
+
+14:24:54.798 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/multiscreen/ui/AppViewController.viewDidLoad"
+
+14:24:54.799 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/com/intel/multiscreen/ui/AppViewController"
+
+14:24:54.829 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

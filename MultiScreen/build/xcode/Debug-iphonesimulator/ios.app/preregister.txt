@@ -1,0 +1,2 @@
+com/com/intel/ios/ios/ui/AppViewController
+com/com/intel/multiscreen/ui/AppViewController

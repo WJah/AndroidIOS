@@ -1,0 +1,14 @@
+
+16:51:11.592 INFO ParseArchs(): Active architecture: i386
+
+16:51:11.592 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPreregisterAlgorithm
+
+16:51:11.592 INFO start(): Location of preregister file: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/ios/preregister.txt
+
+16:51:11.592 INFO start(): Checking /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/proguard/proguarded.jar
+
+16:51:11.593 INFO start(): Found annotation for: com/com/intel/ios/ios/ui/AppViewController
+
+16:51:11.593 INFO start(): Found annotation for: com/com/intel/multiscreen/ui/AppViewController
+
+16:51:11.596 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

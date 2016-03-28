@@ -1,0 +1,892 @@
+
+10:14:24.798 INFO ParseArchs(): Active architecture: i386
+
+10:14:24.798 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildAppAlgorithm
+
+10:14:24.799 INFO start(): Running command line: "[xcodebuild ARCHS=i386  -configuration Debug -sdk iphonesimulator9.1 -target ios -project /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/ios.xcodeproj]"
+
+10:14:25.100 INFO run(): module "runXCodeBuild": out_stream: "Build settings from command line:"
+
+10:14:25.100 INFO run(): module "runXCodeBuild": out_stream: "    ARCHS = i386 "
+
+10:14:25.100 INFO run(): module "runXCodeBuild": out_stream: "    SDKROOT = iphonesimulator9.1"
+
+10:14:25.100 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:25.231 INFO run(): module "runXCodeBuild": out_stream: "=== BUILD TARGET ios OF PROJECT ios WITH CONFIGURATION Debug ==="
+
+10:14:25.231 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:25.231 INFO run(): module "runXCodeBuild": out_stream: "Check dependencies"
+
+10:14:25.301 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:25.306 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Compile\ Java\ Sources /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+10:14:25.306 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:25.306 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+10:14:25.419 INFO run(): module "runXCodeBuild": out_stream: "java version "1.8.0_51""
+
+10:14:25.419 INFO run(): module "runXCodeBuild": out_stream: "Java(TM) SE Runtime Environment (build 1.8.0_51-b16)"
+
+10:14:25.419 INFO run(): module "runXCodeBuild": out_stream: "Java HotSpot(TM) 64-Bit Server VM (build 25.51-b03, mixed mode)"
+
+10:14:27.047 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:compileJava UP-TO-DATE"
+
+10:14:27.061 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:proguard"
+
+10:14:27.061 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:27.061 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.27+0800_BUILD_PROGUARD_LOG.txt"."
+
+10:14:27.951 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:buildRetro"
+
+10:14:27.951 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:27.951 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.27+0800_BUILD_RETRO_LOG.txt"."
+
+10:14:28.307 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:buildDex"
+
+10:14:28.307 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:28.307 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.28+0800_BUILD_DEX_LOG.txt"."
+
+10:14:28.793 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:buildArtOat"
+
+10:14:28.793 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:28.793 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.28+0800_BUILD_ART_OAT_LOG.txt"."
+
+10:14:38.076 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:buildPreregister"
+
+10:14:38.076 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:38.076 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.38+0800_BUILD_PREREGISTER_LOG.txt"."
+
+10:14:38.087 INFO run(): module "runXCodeBuild": out_stream: ":MultiScreen:buildPrecopy"
+
+10:14:38.087 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:38.087 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/logs/2016.01.11_10.14.38+0800_BUILD_PRECOPY_LOG.txt"."
+
+10:14:38.090 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:38.090 INFO run(): module "runXCodeBuild": out_stream: "BUILD SUCCESSFUL"
+
+10:14:38.090 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:38.090 INFO run(): module "runXCodeBuild": out_stream: "Total time: 12.582 secs"
+
+10:14:39.543 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:39.546 INFO run(): module "runXCodeBuild": out_stream: "CpResource ios/preregister.txt /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/preregister.txt"
+
+10:14:39.546 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:39.546 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:39.546 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/ios/preregister.txt /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "CpResource ios/precopy.txt /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/precopy.txt"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/ios/precopy.txt /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "CompileStoryboard /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources/MainUI.storyboard"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+10:14:39.547 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module ios --output-partial-info-plist /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/MainUI-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --compilation-directory /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources/MainUI.storyboard"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.618 Interface Builder Cocoa Touch Tool[1003:36625] Please stop using -"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.621 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.135 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.621 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.622 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.622 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.622 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.136 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.622 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.623 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.623 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.623 Interface Builder Cocoa Touch Tool[1003:36625] Please stop using -"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.624 Interface Builder Cocoa Touch Tool[1003:36625] Please stop using -"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.627 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.627 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.137 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.628 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.628 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.628 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.138 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.628 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.629 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.629 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.629 Interface Builder Cocoa Touch Tool[1003:36625] Please stop using -"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.630 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.630 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.139 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.634 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.634 Interface Builder Cocoa Touch Tool[1003:36625] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.733 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.748 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.749 Interface Builder Cocoa Touch Tool[1013:36784] Error creating notification handler for simulator graphics quality override: 1000000"
+
+10:14:40.140 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.763 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.763 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.765 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.765 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.141 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.766 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.766 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.774 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.774 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.142 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.775 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.775 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.783 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.786 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.787 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.787 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.143 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.787 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.788 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.788 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.788 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.788 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.789 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.791 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.144 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.794 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.794 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.794 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.794 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.795 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.795 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.145 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.795 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.795 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.796 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.797 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.797 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.802 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.146 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.802 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.948 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.949 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.955 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.955 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.955 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.955 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.147 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.956 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.956 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.959 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.959 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.960 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.960 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.148 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.970 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.973 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.973 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.974 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.974 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.974 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.974 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.975 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.149 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.975 Interface Builder Cocoa Touch Tool[1013:36784] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceIdiom = pad;"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    DevicePerformanceMemoryClass = 1;"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "}'"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "2016-01-11 10:14:39.975 Interface Builder Cocoa Touch Tool[1013:36784] Please stop using -"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "ProcessInfoPlistFile /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/Info.plist ios/Info.plist"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:40.150 INFO run(): module "runXCodeBuild": out_stream: "    builtin-infoPlistUtility /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/ios/Info.plist -genpkginfo /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/LaunchScreen-PartialInfo.plist -additionalcontentfile /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/MainUI-SBPartialInfo.plist -o /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/Info.plist"
+
+10:14:40.151 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.152 INFO run(): module "runXCodeBuild": out_stream: "LinkStoryboards"
+
+10:14:40.152 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.152 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:40.152 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+10:14:40.152 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module ios --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --link /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/MainUI.storyboardc"
+
+10:14:40.161 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.162 INFO run(): module "runXCodeBuild": out_stream: "Ld /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/ios normal i386"
+
+10:14:40.163 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.163 INFO run(): module "runXCodeBuild": out_stream: "    export IPHONEOS_DEPLOYMENT_TARGET=8.0"
+
+10:14:40.163 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:40.163 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk -L/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator -F/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator -F/Applications/Intel/INDE/multi_os_engine/sdk/iphonesimulator -filelist /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Objects-normal/i386/ios.LinkFileList -Xlinker -rpath -Xlinker /Applications/Intel/INDE/multi_os_engine/sdk/iphonesimulator -Xlinker -rpath -Xlinker @executable_path/Frameworks -mios-simulator-version-min=8.0 -Xlinker -objc_abi_version -Xlinker 2 -sectcreate __OATDATA __oatdata /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/../build/art/i386/application.oat -sectcreate __ARTDATA __artdata /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode/../build/art/i386/image.art -segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw -pagezero_size 1000 -lstdc++ -fobjc-arc -fobjc-link-runtime -framework MOE -Xlinker -dependency_info -Xlinker /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Objects-normal/i386/ios_dependency_info.dat -o /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/ios"
+
+10:14:40.364 INFO run(): module "runXCodeBuild": out_stream: "ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _main from /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Objects-normal/i386/main.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie"
+
+10:14:40.364 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.366 INFO run(): module "runXCodeBuild": out_stream: "GenerateDSYMFile /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app.dSYM /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/ios"
+
+10:14:40.366 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.366 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:40.366 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app/ios -o /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app.dSYM"
+
+10:14:40.450 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.454 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Custom\ Copy\ Script /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+10:14:40.454 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.454 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/ios.build/Debug-iphonesimulator/ios.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+10:14:40.464 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.466 INFO run(): module "runXCodeBuild": out_stream: "Touch /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app"
+
+10:14:40.466 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/xcode"
+
+10:14:40.466 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+10:14:40.466 INFO run(): module "runXCodeBuild": out_stream: "    /usr/bin/touch -c /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/xcode/Debug-iphonesimulator/ios.app"
+
+10:14:40.471 INFO run(): module "runXCodeBuild": out_stream: ""
+
+10:14:40.473 INFO run(): module "runXCodeBuild": out_stream: "** BUILD SUCCEEDED **"
+
+10:14:40.473 INFO run(): module "runXCodeBuild": out_stream: ""

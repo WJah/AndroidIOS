@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" xrt:initialViewController="true" android:orientation="vertical" xrt:viewController="com.com.intel.ios.ios.ui.AppViewController">
+
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1" android:layout_gravity="left">
+            <com.android.sdklib.widgets.iOSToolBar
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          style="@style/XOSToolbar"
+                          android:layout_gravity="left">
+                          <com.android.sdklib.widgets.iOSBarButtonItem
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Item"
+                              style="@style/XOSBarButtonItem"/><com.android.sdklib.widgets.iOSTextView
+                            style="@style/XOSLabel"
+                            android:textSize="15dp"
+                            android:text="Label"
+                            android:layout_width="144dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView"  android:layout_marginLeft="10dp" android:layout_marginTop="10dp" xrt:iboutlet="statusText"/>
+                  </com.android.sdklib.widgets.iOSToolBar><com.android.sdklib.widgets.iOSTextField
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Text"
+                    android:textSize="15dp"
+                    style="@style/XOSTextField"
+                    android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSTextField"/><com.android.sdklib.widgets.iOSSlider
+                            style = "@style/XOSSlider"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:progress="50"
+                            android:max="100"
+                            android:indeterminate="false"
+                            android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSSlider"/><com.android.sdklib.widgets.iOSButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="15dp"
+                  android:text="Button"
+                  android:layout_gravity="left"
+                  style="@style/XOSButton"
+                android:id="@+id/com.android.sdklib.widgets.iOSButton"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSViewController>

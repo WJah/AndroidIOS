@@ -1,0 +1,638 @@
+
+12:38:43.918 INFO ParseArchs(): Active architecture: i386
+
+12:38:43.918 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.ProGuardAlgorithm
+
+12:38:43.919 INFO doConfigAction(): Config file: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/proguard/proguard.cfg
+
+12:38:43.919 INFO start(): Running command line: "[java -jar /Applications/Intel/INDE/multi_os_engine/tools/proguard.jar @/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/proguard/proguard.cfg]"
+
+12:38:44.034 INFO run(): module "proGuard": out_stream: "ProGuard, version 5.2.1"
+
+12:38:44.045 INFO run(): module "proGuard": out_stream: "Reading input..."
+
+12:38:44.080 INFO run(): module "proGuard": out_stream: "Reading program directory [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/classes/main]"
+
+12:38:44.106 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar]"
+
+12:38:44.377 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar]"
+
+12:38:44.578 INFO run(): module "proGuard": out_stream: "Initializing..."
+
+12:38:44.580 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+12:38:44.600 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+12:38:44.622 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.app.backup.BackupAgent'"
+
+12:38:44.650 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.appwidget.AppWidgetProvider'"
+
+12:38:44.659 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.collection.SeqLike'"
+
+12:38:44.668 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.reflect.ScalaSignature'"
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "Note: there were 6 references to unknown classes."
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "      You should check your configuration for typos."
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)"
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "Note: you're ignoring all warnings!"
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "Ignoring unused library classes..."
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "  Original number of library classes: 8680"
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "  Final number of library classes:    312"
+
+12:38:44.772 INFO run(): module "proGuard": out_stream: "Printing kept classes, fields, and methods..."
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity0"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity0: Activity0 alloc()"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity0: Activity0(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity0: void onClick(ios.uikit.UIButton)"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity1"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity1: Activity1 alloc()"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity1: Activity1(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Activity1: void onClick(ios.uikit.UIButton)"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Main"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Main: void main(java.lang.String[])"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Main: Main alloc()"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Main: Main(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.784 INFO run(): module "proGuard": out_stream: "Main: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void setWindow(ios.uikit.UIWindow)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: ios.uikit.UIWindow window()"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidChangeStatusBarOrientation(ios.uikit.UIApplication,long)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidDecodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidFailToRegisterForRemoteNotificationsWithError(ios.uikit.UIApplication,ios.foundation.NSError)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidReceiveLocalNotification(ios.uikit.UIApplication,ios.uikit.UILocalNotification)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidReceiveRemoteNotification(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidReceiveRemoteNotificationFetchCompletionHandler(ios.uikit.UIApplication,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationDidReceiveRemoteNotificationFetchCompletionHandler)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationDidRegisterForRemoteNotificationsWithDeviceToken(ios.uikit.UIApplication,ios.foundation.NSData)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationHandleEventsForBackgroundURLSessionCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleEventsForBackgroundURLSessionCompletionHandler)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: boolean applicationHandleOpenURL(ios.uikit.UIApplication,ios.foundation.NSURL)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: boolean applicationOpenURLSourceApplicationAnnotation(ios.uikit.UIApplication,ios.foundation.NSURL,java.lang.String,java.lang.Object)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationPerformFetchWithCompletionHandler(ios.uikit.UIApplication,ios.uikit.protocol.UIApplicationDelegate$Block_applicationPerformFetchWithCompletionHandler)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: boolean applicationShouldRestoreApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: boolean applicationShouldSaveApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: long applicationSupportedInterfaceOrientationsForWindow(ios.uikit.UIApplication,ios.uikit.UIWindow)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: ios.uikit.UIViewController applicationViewControllerWithRestorationIdentifierPathCoder(ios.uikit.UIApplication,ios.foundation.NSArray,ios.foundation.NSCoder)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationWillChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.785 INFO run(): module "proGuard": out_stream: "Main: void applicationWillChangeStatusBarOrientationDuration(ios.uikit.UIApplication,long,double)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationWillEncodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: boolean applicationWillFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationDidBecomeActive(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationDidEnterBackground(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationDidFinishLaunching(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationDidReceiveMemoryWarning(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationProtectedDataDidBecomeAvailable(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationProtectedDataWillBecomeUnavailable(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationSignificantTimeChange(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationWillEnterForeground(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationWillResignActive(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationWillTerminate(ios.uikit.UIApplication)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: boolean applicationContinueUserActivityRestorationHandler(ios.uikit.UIApplication,ios.foundation.NSUserActivity,ios.uikit.protocol.UIApplicationDelegate$Block_applicationContinueUserActivityRestorationHandler)"
+
+12:38:44.786 INFO run(): module "proGuard": out_stream: "Main: void applicationDidFailToContinueUserActivityWithTypeError(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSError)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: void applicationDidRegisterUserNotificationSettings(ios.uikit.UIApplication,ios.uikit.UIUserNotificationSettings)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: void applicationDidUpdateUserActivity(ios.uikit.UIApplication,ios.foundation.NSUserActivity)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: void applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.UILocalNotification,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: void applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: boolean applicationShouldAllowExtensionPointIdentifier(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "Main: boolean applicationWillContinueUserActivityWithType(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void main(java.lang.String[])"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: bypassMain alloc()"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: bypassMain(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void onClick(ios.uikit.UIButton)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void setWindow(ios.uikit.UIWindow)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: ios.uikit.UIWindow window()"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidChangeStatusBarOrientation(ios.uikit.UIApplication,long)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidDecodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidFailToRegisterForRemoteNotificationsWithError(ios.uikit.UIApplication,ios.foundation.NSError)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidReceiveLocalNotification(ios.uikit.UIApplication,ios.uikit.UILocalNotification)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidReceiveRemoteNotification(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidReceiveRemoteNotificationFetchCompletionHandler(ios.uikit.UIApplication,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationDidReceiveRemoteNotificationFetchCompletionHandler)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidRegisterForRemoteNotificationsWithDeviceToken(ios.uikit.UIApplication,ios.foundation.NSData)"
+
+12:38:44.787 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationHandleEventsForBackgroundURLSessionCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleEventsForBackgroundURLSessionCompletionHandler)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationHandleOpenURL(ios.uikit.UIApplication,ios.foundation.NSURL)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationOpenURLSourceApplicationAnnotation(ios.uikit.UIApplication,ios.foundation.NSURL,java.lang.String,java.lang.Object)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationPerformFetchWithCompletionHandler(ios.uikit.UIApplication,ios.uikit.protocol.UIApplicationDelegate$Block_applicationPerformFetchWithCompletionHandler)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationShouldRestoreApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationShouldSaveApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: long applicationSupportedInterfaceOrientationsForWindow(ios.uikit.UIApplication,ios.uikit.UIWindow)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: ios.uikit.UIViewController applicationViewControllerWithRestorationIdentifierPathCoder(ios.uikit.UIApplication,ios.foundation.NSArray,ios.foundation.NSCoder)"
+
+12:38:44.788 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillChangeStatusBarOrientationDuration(ios.uikit.UIApplication,long,double)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillEncodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationWillFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidBecomeActive(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidEnterBackground(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidFinishLaunching(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidReceiveMemoryWarning(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationProtectedDataDidBecomeAvailable(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationProtectedDataWillBecomeUnavailable(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationSignificantTimeChange(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillEnterForeground(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillResignActive(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationWillTerminate(ios.uikit.UIApplication)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationContinueUserActivityRestorationHandler(ios.uikit.UIApplication,ios.foundation.NSUserActivity,ios.uikit.protocol.UIApplicationDelegate$Block_applicationContinueUserActivityRestorationHandler)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidFailToContinueUserActivityWithTypeError(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSError)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidRegisterUserNotificationSettings(ios.uikit.UIApplication,ios.uikit.UIUserNotificationSettings)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationDidUpdateUserActivity(ios.uikit.UIApplication,ios.foundation.NSUserActivity)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.UILocalNotification,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: void applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationShouldAllowExtensionPointIdentifier(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "bypassMain: boolean applicationWillContinueUserActivityWithType(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main"
+
+12:38:44.789 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void main(java.lang.String[])"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: com.com.intel.ios.ios.Main alloc()"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: Main(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void setWindow(ios.uikit.UIWindow)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: ios.uikit.UIWindow window()"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidChangeStatusBarOrientation(ios.uikit.UIApplication,long)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidDecodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidFailToRegisterForRemoteNotificationsWithError(ios.uikit.UIApplication,ios.foundation.NSError)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidReceiveLocalNotification(ios.uikit.UIApplication,ios.uikit.UILocalNotification)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidReceiveRemoteNotification(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidReceiveRemoteNotificationFetchCompletionHandler(ios.uikit.UIApplication,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationDidReceiveRemoteNotificationFetchCompletionHandler)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidRegisterForRemoteNotificationsWithDeviceToken(ios.uikit.UIApplication,ios.foundation.NSData)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationHandleEventsForBackgroundURLSessionCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleEventsForBackgroundURLSessionCompletionHandler)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationHandleOpenURL(ios.uikit.UIApplication,ios.foundation.NSURL)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationOpenURLSourceApplicationAnnotation(ios.uikit.UIApplication,ios.foundation.NSURL,java.lang.String,java.lang.Object)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationPerformFetchWithCompletionHandler(ios.uikit.UIApplication,ios.uikit.protocol.UIApplicationDelegate$Block_applicationPerformFetchWithCompletionHandler)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationShouldRestoreApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationShouldSaveApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: long applicationSupportedInterfaceOrientationsForWindow(ios.uikit.UIApplication,ios.uikit.UIWindow)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: ios.uikit.UIViewController applicationViewControllerWithRestorationIdentifierPathCoder(ios.uikit.UIApplication,ios.foundation.NSArray,ios.foundation.NSCoder)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillChangeStatusBarOrientationDuration(ios.uikit.UIApplication,long,double)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillEncodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationWillFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidBecomeActive(ios.uikit.UIApplication)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidEnterBackground(ios.uikit.UIApplication)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidFinishLaunching(ios.uikit.UIApplication)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidReceiveMemoryWarning(ios.uikit.UIApplication)"
+
+12:38:44.790 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationProtectedDataDidBecomeAvailable(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationProtectedDataWillBecomeUnavailable(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationSignificantTimeChange(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillEnterForeground(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillResignActive(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationWillTerminate(ios.uikit.UIApplication)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationContinueUserActivityRestorationHandler(ios.uikit.UIApplication,ios.foundation.NSUserActivity,ios.uikit.protocol.UIApplicationDelegate$Block_applicationContinueUserActivityRestorationHandler)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidFailToContinueUserActivityWithTypeError(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSError)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidRegisterUserNotificationSettings(ios.uikit.UIApplication,ios.uikit.UIUserNotificationSettings)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationDidUpdateUserActivity(ios.uikit.UIApplication,ios.foundation.NSUserActivity)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.UILocalNotification,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationShouldAllowExtensionPointIdentifier(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationWillContinueUserActivityWithType(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UILabel statusText"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIButton helloButton"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: com.com.intel.ios.ios.ui.AppViewController alloc()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: com.com.intel.ios.ios.ui.AppViewController init()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: AppViewController(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: void viewDidLoad()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UILabel getLabel()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIButton getHelloButton()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: void BtnPressedCancel_button(ios.NSObject)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIViewController init()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIResponder init()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.NSObject init()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void main(java.lang.String[])"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: com.com.intel.multiscreen.Main alloc()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: Main(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void setWindow(ios.uikit.UIWindow)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: ios.uikit.UIWindow window()"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidChangeStatusBarOrientation(ios.uikit.UIApplication,long)"
+
+12:38:44.791 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidDecodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidFailToRegisterForRemoteNotificationsWithError(ios.uikit.UIApplication,ios.foundation.NSError)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidReceiveLocalNotification(ios.uikit.UIApplication,ios.uikit.UILocalNotification)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidReceiveRemoteNotification(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidReceiveRemoteNotificationFetchCompletionHandler(ios.uikit.UIApplication,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationDidReceiveRemoteNotificationFetchCompletionHandler)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidRegisterForRemoteNotificationsWithDeviceToken(ios.uikit.UIApplication,ios.foundation.NSData)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationHandleEventsForBackgroundURLSessionCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleEventsForBackgroundURLSessionCompletionHandler)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationHandleOpenURL(ios.uikit.UIApplication,ios.foundation.NSURL)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationOpenURLSourceApplicationAnnotation(ios.uikit.UIApplication,ios.foundation.NSURL,java.lang.String,java.lang.Object)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationPerformFetchWithCompletionHandler(ios.uikit.UIApplication,ios.uikit.protocol.UIApplicationDelegate$Block_applicationPerformFetchWithCompletionHandler)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationShouldRestoreApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationShouldSaveApplicationState(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: long applicationSupportedInterfaceOrientationsForWindow(ios.uikit.UIApplication,ios.uikit.UIWindow)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: ios.uikit.UIViewController applicationViewControllerWithRestorationIdentifierPathCoder(ios.uikit.UIApplication,ios.foundation.NSArray,ios.foundation.NSCoder)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillChangeStatusBarFrame(ios.uikit.UIApplication,ios.coregraphics.struct.CGRect)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillChangeStatusBarOrientationDuration(ios.uikit.UIApplication,long,double)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillEncodeRestorableStateWithCoder(ios.uikit.UIApplication,ios.foundation.NSCoder)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationWillFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidBecomeActive(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidEnterBackground(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidFinishLaunching(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidReceiveMemoryWarning(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationProtectedDataDidBecomeAvailable(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationProtectedDataWillBecomeUnavailable(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationSignificantTimeChange(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillEnterForeground(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillResignActive(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationWillTerminate(ios.uikit.UIApplication)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationContinueUserActivityRestorationHandler(ios.uikit.UIApplication,ios.foundation.NSUserActivity,ios.uikit.protocol.UIApplicationDelegate$Block_applicationContinueUserActivityRestorationHandler)"
+
+12:38:44.792 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidFailToContinueUserActivityWithTypeError(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSError)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidRegisterUserNotificationSettings(ios.uikit.UIApplication,ios.uikit.UIUserNotificationSettings)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationDidUpdateUserActivity(ios.uikit.UIApplication,ios.foundation.NSUserActivity)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.uikit.UILocalNotification,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForLocalNotificationCompletionHandler)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: void applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler(ios.uikit.UIApplication,java.lang.String,ios.foundation.NSDictionary,ios.uikit.protocol.UIApplicationDelegate$Block_applicationHandleActionWithIdentifierForRemoteNotificationCompletionHandler)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationShouldAllowExtensionPointIdentifier(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main: boolean applicationWillContinueUserActivityWithType(ios.uikit.UIApplication,java.lang.String)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UILabel statusText"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UIButton helloButton"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: com.com.intel.multiscreen.ui.AppViewController alloc()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: com.com.intel.multiscreen.ui.AppViewController init()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: AppViewController(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: void viewDidLoad()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UILabel getLabel()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UIButton getHelloButton()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: void BtnPressedCancel_button(ios.NSObject)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UIViewController init()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.uikit.UIResponder init()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.ui.AppViewController: ios.NSObject init()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.ActivityViewController"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.ActivityViewController: com.intel.inde.common.ActivityViewController alloc()"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.ActivityViewController: ActivityViewController(com.intel.inde.moe.natj.general.Pointer)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.ActivityViewController: void onTouchUpInside(ios.uikit.UIButton)"
+
+12:38:44.793 INFO run(): module "proGuard": out_stream: "Shrinking..."
+
+12:38:44.794 INFO run(): module "proGuard": out_stream: "Printing usage to [standard output]..."
+
+12:38:44.841 INFO run(): module "proGuard": out_stream: "Activity0:"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "    77:77:public void myInit()"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "Activity1:"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "    79:79:public void myInit()"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "Main:"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "    ios.uikit.UILabel label"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "    int cnt"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$backactivity"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$backactivity$button2"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$mainactivity"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$mainactivity$button"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$mainactivity$button3"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$canvas$mainactivity$textView"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$id"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "R$layout"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "android.os.Bundle:"
+
+12:38:44.842 INFO run(): module "proGuard": out_stream: "    4:6:public Bundle()"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.support.v7.app.BaseActivity"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.util.AttributeSet:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    public abstract int getAttributeCount()"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    public abstract java.lang.String getAttributeName(int)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    public abstract java.lang.String getAttributeValue(int)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.util.WidgetAttribute"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.util.WidgetAttributeMap:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    62:62:public int getAttributeCount()"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    68:69:public java.lang.String getAttributeName(int)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    76:76:public java.lang.String getAttributeValue(int)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.view.A2MAction"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.widget.Button:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    53:54:public void SetText(java.lang.String)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "android.widget.TextView:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    18:20:public TextView(ios.uikit.UILabel)"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "bypassMain:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    82:92:private void runDemo()"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    ios.uikit.UILabel label"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    int cnt"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "com.com.intel.multiscreen.Main:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    ios.uikit.UILabel label"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    int cnt"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.A2M:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    44:44:public A2M()"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.Action:"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "    24:47:public varargs void involk(java.lang.Object[])"
+
+12:38:44.843 INFO run(): module "proGuard": out_stream: "com.intel.inde.common.ActivityViewController:"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "    120:121:public void unregisterAction(ios.uikit.UIView)"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "entry.BackActivity:"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "    42:44:public void onDec(android.view.View)"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "entry.Counter:"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "    6:6:public Counter()"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "entry.MainActivity:"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "    53:55:public void onInc(android.view.View)"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.Canvas"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas:"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "    26:138:public R$canvas()"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$backactivity"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$backactivity$button2"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$mainactivity"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$mainactivity$button"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$mainactivity$button3"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$canvas$mainactivity$textView"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$id"
+
+12:38:44.844 INFO run(): module "proGuard": out_stream: "generated.R$layout"
+
+12:38:44.866 INFO run(): module "proGuard": out_stream: "Removing unused program classes and class elements..."
+
+12:38:44.866 INFO run(): module "proGuard": out_stream: "  Original number of program classes: 54"
+
+12:38:44.866 INFO run(): module "proGuard": out_stream: "  Final number of program classes:    32"
+
+12:38:44.866 INFO run(): module "proGuard": out_stream: "Inlining subroutines..."
+
+12:38:44.873 INFO run(): module "proGuard": out_stream: "Preverifying..."
+
+12:38:44.946 INFO run(): module "proGuard": out_stream: "Writing output..."
+
+12:38:44.950 INFO run(): module "proGuard": out_stream: "Preparing output jar [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/proguard/proguarded.jar]"
+
+12:38:44.956 INFO run(): module "proGuard": out_stream: "  Copying resources from program directory [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/classes/main]"
+
+12:38:45.017 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

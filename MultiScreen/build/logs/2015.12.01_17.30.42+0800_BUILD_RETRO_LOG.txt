@@ -1,0 +1,34 @@
+
+17:30:42.844 INFO ParseArchs(): Active architecture: i386
+
+17:30:42.844 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildRetroAlgorithm
+
+17:30:42.845 INFO start(): Running command line: "[java -Dretrolambda.inputDir=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/input -Dretrolambda.classpath=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar -Dretrolambda.outputDir=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/output -Dretrolambda.natjSupport=true -Dretrolambda.defaultMethods=true -jar /Applications/Intel/INDE/multi_os_engine/tools/retrolambda.jar]"
+
+17:30:42.944 INFO run(): module "run retrolambda": out_stream: "Retrolambda 2.0.2-SNAPSHOT"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "Bytecode version: 51 (Java 7)"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "Default methods:  true"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "NatJ support:     true"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "Input directory:  /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/input"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "Output directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/output"
+
+17:30:42.951 INFO run(): module "run retrolambda": out_stream: "Classpath:        /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar"
+
+17:30:43.104 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/ios/ios/ui/AppViewController.viewDidLoad"
+
+17:30:43.106 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/com/intel/ios/ios/ui/AppViewController"
+
+17:30:43.116 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/ios/ios/Main.applicationDidFinishLaunchingWithOptions"
+
+17:30:43.116 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/ios/ios/Main.setWindow"
+
+17:30:43.117 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/com/intel/ios/ios/Main.window"
+
+17:30:43.117 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/com/intel/ios/ios/Main"
+
+17:30:43.139 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build

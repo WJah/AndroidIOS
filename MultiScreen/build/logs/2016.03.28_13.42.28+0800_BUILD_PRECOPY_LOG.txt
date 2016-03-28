@@ -1,0 +1,6 @@
+
+13:42:28.372 INFO ParseArchs(): Active architecture: i386
+
+13:42:28.372 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPrecopyAlgorithm
+
+13:54:02.083 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

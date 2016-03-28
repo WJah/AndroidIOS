@@ -1,0 +1,788 @@
+
+15:49:54.362 INFO ParseArchs(): Active architecture: i386
+
+15:49:54.363 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildArtOatAlgorithm
+
+15:49:54.363 INFO start(): Running command line: "[java -cp /Applications/Intel/INDE/multi_os_engine/tools/uiTransformer.jar org.intel.transformer.OSXUITransformer --ixml-res-path=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources --out-format=storyboard --out-filename=MainUI --out-path=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources/ --uitransformer-res-path=/Applications/Intel/INDE/multi_os_engine/tools/UITransformer-res]"
+
+15:49:54.461 INFO run(): module "runUITransformer": out_stream: "OSXUITransformer exec"
+
+15:49:54.463 INFO run(): module "runUITransformer": out_stream: "ixml_res_path: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources/layout"
+
+15:49:54.463 INFO run(): module "runUITransformer": out_stream: "out_path: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources/"
+
+15:49:54.463 INFO run(): module "runUITransformer": out_stream: "out_filename: MainUI"
+
+15:49:54.463 INFO run(): module "runUITransformer": out_stream: "xslt_template: StoryboardTemplate.xsl"
+
+15:49:55.117 INFO run(): module "runUITransformer": out_stream: "Done"
+
+15:49:57.432 INFO start(): Running command line: "[ibtool /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources//MainUI.storyboard --write /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/src/main/resources//MainUI.storyboard --update-frames --errors --warnings --notices]"
+
+15:49:59.684 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.683 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.797 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.798 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.798 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.815 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.815 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.815 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.818 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.818 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.818 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.819 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.819 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.819 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.820 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.819 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.827 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.827 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.830 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.830 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.830 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.831 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.831 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.831 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.831 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.831 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.832 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.832 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.832 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.833 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.832 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.851 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.850 Interface Builder Cocoa Touch Tool[1607:188494] Error creating notification handler for simulator graphics quality override: 1000000"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.855 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.855 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.855 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.856 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.856 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.856 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.856 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.866 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.866 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.867 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.888 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.887 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.888 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.888 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.906 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.906 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.906 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.907 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.907 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.907 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.907 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.907 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.908 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.912 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.912 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.912 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.912 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.913 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.913 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.921 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.921 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.924 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.924 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.924 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.924 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.924 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.925 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.925 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.925 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.925 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.925 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.926 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.926 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.927 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.927 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.929 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.929 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.929 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.930 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.930 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.930 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.930 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.930 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.931 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.931 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.931 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.931 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.932 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.932 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.932 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.936 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.936 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.936 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.955 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.955 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.958 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.958 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.958 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.959 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.959 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.959 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.959 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.959 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.960 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.960 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.960 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.960 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.961 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.961 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.963 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.963 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.964 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.964 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.964 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.965 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.965 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.965 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.965 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.965 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.966 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.966 Interface Builder Cocoa Touch Tool[1607:188494] Please stop using -[UIToolbar _setForceTopBarAppearance:]"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.967 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.967 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.967 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.970 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "2016-03-09 15:49:59.970 Interface Builder Cocoa Touch Tool[1607:188494] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceIdiom = pad;"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    ArtworkDeviceScaleFactor = "-1";"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "    DevicePerformanceMemoryClass = 1;"
+
+15:49:59.971 WARNING run(): module "call_ibtool": err_stream: "}'"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "<?xml version="1.0" encoding="UTF-8"?>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "<plist version="1.0">"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "<dict>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.errors</key>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.notices</key>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.warnings</key>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "</dict>"
+
+15:50:00.260 INFO run(): module "call_ibtool": out_stream: "</plist>"
+
+15:50:00.269 INFO start(): Running command line: "[/Applications/Intel/INDE/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/art/i386/image.art --image-classes=/Applications/Intel/INDE/multi_os_engine/tools/preloaded-classes --oat-file=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/art/i386/application.oat --dex-file=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex]"
+
+15:50:00.288 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  1608 188509 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/dex2oat/dex2oat.cc:1937] /Applications/Intel/INDE/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/art/i386/image.art --image-classes=/Applications/Intel/INDE/multi_os_engine/tools/preloaded-classes --oat-file=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/art/i386/application.oat --dex-file=/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex"
+
+15:50:00.291 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  1608 188509 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/parsed_options.cc:427] setting boot class path to /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex"
+
+15:50:01.259 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  1608 188509 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/gc/heap.cc:2447] Explicit concurrent mark sweep GC freed 32697(5MB) AllocSpace objects, 0(0B) LOS objects, 23% free, 13MB/17MB, paused 25us total 23.463ms"
+
+15:50:02.569 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  1608 188509 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/gc/heap.cc:2447] Explicit concurrent mark sweep GC freed 130361(10MB) AllocSpace objects, 0(0B) LOS objects, 52% free, 3MB/7MB, paused 24us total 12.143ms"
+
+15:50:02.717 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  1608 188509 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/dex2oat/dex2oat.cc:1743] dex2oat took 2.431s (threads: 8) arena alloc=440KB java alloc=3MB"
+
+15:50:02.831 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

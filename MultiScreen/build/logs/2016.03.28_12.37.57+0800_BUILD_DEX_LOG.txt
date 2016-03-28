@@ -1,0 +1,10 @@
+
+12:37:57.784 INFO ParseArchs(): Active architecture: i386
+
+12:37:57.785 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildDexAlgorithm
+
+12:37:57.785 INFO dexApplication(): dexApplication: xrtApplication
+
+12:37:57.785 INFO start(): Running command line: "[/Applications/Intel/INDE/multi_os_engine/tools/dx --dex --output /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/dex/xrtApplication.dex --core-library /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build/retro/output]"
+
+12:37:58.279 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/MultiScreen/build

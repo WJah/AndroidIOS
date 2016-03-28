@@ -1,0 +1,4 @@
+
+16:35:50.489 INFO ParseArchs(): Active architecture: i386
+
+16:35:50.489 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPrecopyAlgorithm

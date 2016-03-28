@@ -1,0 +1,112 @@
+
+17:30:41.972 INFO ParseArchs(): Active architecture: i386
+
+17:30:41.972 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.ProGuardAlgorithm
+
+17:30:41.973 INFO doConfigAction(): Config file: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/proguard/proguard.cfg
+
+17:30:41.973 INFO start(): Running command line: "[java -jar /Applications/Intel/INDE/multi_os_engine/tools/proguard.jar @/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/proguard/proguard.cfg]"
+
+17:30:42.085 INFO run(): module "proGuard": out_stream: "ProGuard, version 5.2.1"
+
+17:30:42.093 INFO run(): module "proGuard": out_stream: "Reading input..."
+
+17:30:42.128 INFO run(): module "proGuard": out_stream: "Reading program directory [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/classes/main]"
+
+17:30:42.141 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar]"
+
+17:30:42.404 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar]"
+
+17:30:42.593 INFO run(): module "proGuard": out_stream: "Initializing..."
+
+17:30:42.595 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+17:30:42.616 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+17:30:42.638 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.app.backup.BackupAgent'"
+
+17:30:42.667 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.appwidget.AppWidgetProvider'"
+
+17:30:42.676 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.collection.SeqLike'"
+
+17:30:42.685 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.reflect.ScalaSignature'"
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "Note: there were 6 references to unknown classes."
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "      You should check your configuration for typos."
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)"
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "Note: you're ignoring all warnings!"
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "Ignoring unused library classes..."
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "  Original number of library classes: 8680"
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "  Final number of library classes:    216"
+
+17:30:42.746 INFO run(): module "proGuard": out_stream: "Printing kept classes, fields, and methods..."
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: ios.uikit.UIWindow window"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void main(java.lang.String[])"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: com.com.intel.ios.ios.Main alloc()"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: Main(com.intel.inde.moe.natj.general.Pointer)"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: void setWindow(ios.uikit.UIWindow)"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.Main: ios.uikit.UIWindow window()"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UILabel statusText"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIButton helloButton"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: com.com.intel.ios.ios.ui.AppViewController alloc()"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: com.com.intel.ios.ios.ui.AppViewController init()"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: AppViewController(com.intel.inde.moe.natj.general.Pointer)"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: void viewDidLoad()"
+
+17:30:42.750 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UILabel getLabel()"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIButton getHelloButton()"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: void BtnPressedCancel_button(ios.NSObject)"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIViewController init()"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.uikit.UIResponder init()"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "com.com.intel.ios.ios.ui.AppViewController: ios.NSObject init()"
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "Shrinking..."
+
+17:30:42.751 INFO run(): module "proGuard": out_stream: "Printing usage to [standard output]..."
+
+17:30:42.782 INFO run(): module "proGuard": out_stream: "Removing unused program classes and class elements..."
+
+17:30:42.782 INFO run(): module "proGuard": out_stream: "  Original number of program classes: 2"
+
+17:30:42.782 INFO run(): module "proGuard": out_stream: "  Final number of program classes:    2"
+
+17:30:42.782 INFO run(): module "proGuard": out_stream: "Inlining subroutines..."
+
+17:30:42.786 INFO run(): module "proGuard": out_stream: "Preverifying..."
+
+17:30:42.814 INFO run(): module "proGuard": out_stream: "Writing output..."
+
+17:30:42.816 INFO run(): module "proGuard": out_stream: "Preparing output jar [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/proguard/proguarded.jar]"
+
+17:30:42.818 INFO run(): module "proGuard": out_stream: "  Copying resources from program directory [/Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build/classes/main]"
+
+17:30:42.844 INFO createBuildDirectories(): Build directory: /Users/wangjiahe/AndroidStudioProjects/AndroidIOS/ios/build
