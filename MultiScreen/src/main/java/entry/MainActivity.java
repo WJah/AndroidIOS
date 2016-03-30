@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     public void onCreate(Bundle savedInstanceState) {
         self = this;
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_layout);
         
         textView = (TextView) findViewById(R.id.textView);
         textView.setText("counter: " + Counter.val);

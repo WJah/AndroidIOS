@@ -15,7 +15,7 @@ public class BackActivity extends ActionBarActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_back);
+        setContentView(R.layout.activity_back_layout);
         
         textView = (TextView)findViewById(R.id.textView2);
         textView.setText("counter: " + Counter.val);
